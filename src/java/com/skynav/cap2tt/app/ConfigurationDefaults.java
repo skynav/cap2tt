@@ -27,6 +27,10 @@ package com.skynav.cap2tt.app;
 
 import java.util.Map;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class ConfigurationDefaults {
     private static final String[][] optionDefaultSpecifications = new String[][] {
         { "add-creation-metadata", "true" },
