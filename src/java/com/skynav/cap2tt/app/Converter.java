@@ -138,6 +138,10 @@ import org.xml.sax.helpers.LocatorImpl;
 
 import static com.skynav.ttv.model.ttml.TTML2.Constants.*;
 
+/* Suppressing PMD warnings for the time being.
+ * This should be reviewed after Beta-deliverable is met at the end of
+ * April 2015 */
+@SuppressWarnings("PMD")
 public class Converter implements ConverterContext {
 
     public static final int RV_SUCCESS                          = 0;
